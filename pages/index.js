@@ -1,14 +1,24 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import About from '../components/About'
+import Contact from '../components/Contact'
+import Main from '../components/Main'
+import Projects from '../components/Projects'
+import Skills from '../components/Skills'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
-      hola
-    </>
+    <div>
+      <Head>
+        <title>Adrian Jaen | Portfolio</title>
+        <meta name="description" content="My personal portfolio" />
+        <link rel="icon" href="/fav.png" />
+      </Head>
+    <Main />
+    <About />
+    <Skills />
+    <Projects />
+    <Contact />
+    </div>
   )
 }
