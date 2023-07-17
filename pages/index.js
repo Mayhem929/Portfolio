@@ -10,15 +10,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Adrian Jaen | Portfolio</title>
-        <meta name="description" content="My personal portfolio" />
+        <title>Adrian</title>
+        <meta name="description" content="I'm a math and CS student in Granada." />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
     <About />
     <Skills />
     <Projects />
-    <Contact />
     </div>
   )
 }
