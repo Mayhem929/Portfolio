@@ -7,6 +7,7 @@ import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import renderImg from '../public/assets/projects/render.png'
 import mineImg from '../public/assets/projects/minesweeper.png'
+import agentsImg from '../public/assets/projects/agents.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -29,6 +30,12 @@ const Projects = () => {
             backgroundImg={mineImg}
             projectUrl='/minesweeper'
             tech='Python / TKinter'
+          />
+          <ProjectItem
+            title='Reactive/Deliberative Agents'
+            backgroundImg={agentsImg}
+            projectUrl='/agents'
+            tech='AI / C++'
           />
         </div>
       </div>

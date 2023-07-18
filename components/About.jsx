@@ -20,14 +20,14 @@ const About = () => {
           </p>
           <p className='py-2 text-gray-600'>
             Moreover, I'm specially interested in Artificial Inteligence. I am excited 
-            about utilizing my expertise in search algorithms and decision trees to 
+            about utilizing my expertise in path finding algorithms and decision trees to 
             contribute effectively in a professional capacity. Having acquired a deep 
             understanding of these concepts through my education and experience, I am 
             eager to apply them to real world problems in a work setting.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
+              Check out some of my projects.
             </p>
           </Link>
         </div>

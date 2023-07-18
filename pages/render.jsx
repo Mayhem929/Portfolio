@@ -28,10 +28,22 @@ const render = () => {
           <h2>Overview</h2>
           <p>
             This is a project I made by myself to learn more about Object Oriented 
-            Programming. It is a 3D rendering engine that can render prisms and spheres
+            Programming. It is a 3D rendering engine from scratch that can render prisms and spheres
             through the terminal. It uses the C++ language and is built using OOP principles.
-            
 
+          </p>
+          <br />
+          <p>
+            The prisms and spheres are randomly generated within a short radius from the origin and there
+            is always the same number of them. In the future I would like to add the ability to
+            choose the number of spheres and prisms and their size or even add different 3D shapes. 
+          </p>
+          <br />
+          <p>
+            The engine uses the ray tracing algorithm to render the shapes. This algorithm works by
+            sending out rays from the current position through the screen (which also moves and rotates) 
+            and checking if they intersect with any of the shapes. If they do, the screen pixel is colored
+            based on the angle between the light vector and the ray vector.
           </p>
           <a
             href='https://github.com/Mayhem929/3DRender'
@@ -40,13 +52,10 @@ const render = () => {
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          {/* <a
-            href='https://property-finder-development.web.app/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
-          </a> */}
+
+          <div className='flex justify-center'>
+            <video controls src="/renderVid.mp4" style={{ width: '600px', height: '600px' }} />
+          </div>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

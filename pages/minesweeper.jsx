@@ -32,6 +32,18 @@ const minesweeper = () => {
             game MineSweeper. It uses the Python language and is built using the TKinter
             library.
           </p>
+          <br />
+          <p>
+            The game is fully functional and has all the features of the original game.
+            The player can choose between 3 different difficulties and the game will
+            generate a random board with the correct number of mines. The player can
+            then click on the tiles to reveal them and if they click on a mine, they
+            lose. If they click on a tile with no mines around it, it will reveal all
+            the tiles around it and if there are no mines around those tiles, it will
+            continue to reveal all the tiles around those tiles until it reaches a tile
+            that has mines around it. The player can also flag tiles that they think
+            have mines around them and if they flag all the tiles with mines, they win.
+          </p>
           <a
             href='https://github.com/Mayhem929/MineSweeper'
             target='_blank'

@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png'
+import anchor from '../public/anchor.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -57,6 +58,12 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
+          <Image
+            src={anchor}
+            width='70'
+            height='28'
+            alt='/'
+          />
           </a>
         </Link>
         <div>
@@ -108,7 +115,7 @@ const Navbar = () => {
               <Link href='/'>
                 <a>
                   <Image
-                    src={NavLogo}
+                    src={anchor}
                     width='87'
                     height='35'
                     alt='/'
@@ -123,9 +130,6 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
-              </p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>
@@ -153,11 +157,6 @@ const Navbar = () => {
               <Link href='/resume'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
-                </li>
-              </Link>
-              <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
                 </li>
               </Link>
             </ul>
