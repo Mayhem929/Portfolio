@@ -8,6 +8,7 @@ import twitchImg from '../public/assets/projects/twitch.jpg'
 import renderImg from '../public/assets/projects/render.png'
 import mineImg from '../public/assets/projects/minesweeper.png'
 import agentsImg from '../public/assets/projects/agents.png'
+import advImg from '../public/assets/projects/adv2.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -26,16 +27,22 @@ const Projects = () => {
             tech='C++ / OOP'
           />
           <ProjectItem
+            title='Reactive/Deliberative Agents'
+            backgroundImg={agentsImg}
+            projectUrl='/agents'
+            tech='C++ / Informed Search Algorithms'
+          />
+          <ProjectItem
             title='MineSweeper'
             backgroundImg={mineImg}
             projectUrl='/minesweeper'
             tech='Python / TKinter'
           />
           <ProjectItem
-            title='Reactive/Deliberative Agents'
-            backgroundImg={agentsImg}
-            projectUrl='/agents'
-            tech='AI / C++'
+            title='Adversarial Search (Games)'
+            backgroundImg={advImg}
+            projectUrl='/adversary'
+            tech='C++ / Search Trees'
           />
         </div>
       </div>

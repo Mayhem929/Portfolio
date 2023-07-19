@@ -54,7 +54,7 @@ const Skills = () => {
                 <Image src={decisiontree} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Decision Trees</h3>
+                <h3>Search Trees</h3>
               </div>
             </div>
           </div>

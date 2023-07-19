@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import agentsImg from '../public/assets/projects/agents.png'
+import advImg from '../public/assets/projects/adv1.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const agents = () => {
+const adversary = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const agents = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={agentsImg}
+          src={advImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Reactive/Deliberative Agents</h2>
-          <h3>C++ / Informed Search Algorithms</h3>
+          <h2 className='py-2'>Adversarial Search (Games)</h2>
+          <h3> C++ / Search Trees </h3>
         </div>
       </div>
 
@@ -28,23 +28,22 @@ const agents = () => {
           <h2>Overview</h2>
           <p>
             This project was a practice assignment for my Artificial Intelligence class in UGR.
-            The goal was to create a program that would simulate a robot that would move around
-            a grid and collect objectives. There were 4 different levels, each with a different
-            goal. Through the levels, I had to implement different algorithms to make the robot
-            accomplish each goal. 
+            We were asked to design and implement a deliberative agent capable of carrying out 
+            intelligent behavior within the modified rules of the game of parchís.
           </p>
           <br />
           <p>
-            The algorithms I used were: Breadth-first search, Uniform-cost search and A* search.
-            More importantly, I had to mix the reactive and deliberative approaches to make the
-            robot complete the last level, which was the most complex one. 
+            The game has been adapted by replacing the random behavior of rolling a die with the 
+            choice of the die among the available ones. Additionally, it is played one-on-one, 
+            and each player plays with 2 colors, which can attack each other. It has objects that
+            resemble those from Mario Kart, to make the game more interesting.
           </p>
           <br />
           <p>
             More info can be found in the GitHub repository below.
           </p>
           <a
-            href='https://github.com/Mayhem929/ReactiveDeliberativeAgents'
+            href='https://github.com/Mayhem929/AdversarialSearch'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,18 +53,18 @@ const agents = () => {
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies and Skills</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
+            <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> C++
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> AI
+                <RiRadioButtonFill className='pr-1' /> Alpha-Beta pruning
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Informed Search Algorithms
+                <RiRadioButtonFill className='pr-1' /> MinMax algorithm
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Path finding
+                <RiRadioButtonFill className='pr-1' /> Search Trees
               </p>
             </div>
           </div>
@@ -78,4 +77,4 @@ const agents = () => {
   );
 };
 
-export default agents;
+export default adversary;
