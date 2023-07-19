@@ -19,7 +19,7 @@ const About = () => {
             to my degree.
           </p>
           <p className='py-2 text-gray-600'>
-            Moreover, I'm specially interested in Artificial Inteligence. I am excited 
+            Moreover, I&apos;m specially interested in Artificial Inteligence. I am excited 
             about utilizing my expertise in path finding algorithms and decision trees to 
             contribute effectively in a professional capacity. Having acquired a deep 
             understanding of these concepts through my education and experience, I am 

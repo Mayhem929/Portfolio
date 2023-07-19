@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Adrian's Website</title>
+        <title>Adrian&apos;s Website</title>
         <meta name="description" content="I'm a math and CS student in Granada." />
         <link rel="icon" href="/anchor.png" />
       </Head>
