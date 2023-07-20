@@ -1,11 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
+import Head from 'next/head'
 import advImg from '../public/assets/projects/adv1.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const adversary = () => {
   return (
+    <div>
+    <Head>
+      <title>Adversarial Search</title>
+      <link rel="icon" href="/anchor.png" />
+    </Head>
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
@@ -73,6 +79,7 @@ const adversary = () => {
           <p className='underline cursor-pointer'>Back</p>
         </Link>
       </div>
+    </div>
     </div>
   );
 };

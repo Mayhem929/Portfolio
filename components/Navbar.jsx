@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
 import anchor from '../public/anchor.png'
 
 const Navbar = () => {

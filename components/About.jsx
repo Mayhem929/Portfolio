@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/fotillo.jpg';
 
 const About = () => {
   return (
@@ -11,19 +11,33 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>A bit about myself</h2>
           <p className='py-2 text-gray-600'>
-            I have been a student in University of Granada since 2020, and throughout 
-            my education I have been carrying out my own projects, trying to give a 
-            practical application to the knowledge I gained in math and software thanks 
-            to my degree.
+          Welcome to my personal portfolio. My name is Adrián Jaén Fuentes, and I have been 
+          studying at the University of Granada since 2020. My academic focus lies in 
+          Mathematics and Computer Science, which have sparked my enthusiasm for 
+          algorithms, problem-solving, and Artificial Intelligence.
           </p>
           <p className='py-2 text-gray-600'>
-            Moreover, I&apos;m specially interested in Artificial Inteligence. I am excited 
-            about utilizing my expertise in path finding algorithms and decision trees to 
-            contribute effectively in a professional capacity. Having acquired a deep 
-            understanding of these concepts through my education and experience, I am 
-            eager to apply them to real world problems in a work setting.
+          I am excited to share that the coming academic year I will be studying at the Technical 
+          University of Munich (TUM) in Munich. This opportunity promises to be an enriching 
+          experience, allowing me to learn and grow while immersing myself in a new culture 
+          and academic environment.
+          </p>
+          <p className='py-2 text-gray-600'>
+          Beyond academics, I have cultivated a passion for music and enjoy playing the guitar. 
+          Recently, I also discovered an interest in chess, finding it an engaging game that 
+          fosters strategic thinking and decision-making skills. Besides, I am a big fan of
+          old movies and I often play videogames.
+          </p>
+          <p className='py-2 text-gray-600'>
+          My fascination with Artificial Intelligence drives me to explore its vast potential. 
+          Specifically, I am eager to apply my knowledge in graph algorithms in a professional capacity. 
+          The prospect of developing intelligent systems that can positively impact various industries 
+          and people's lives is truly motivating.
+          </p>
+          <p className='py-2 text-gray-600'>
+          Thank you for visiting! I hope you enjoy exploring my portfolio and learning more about me.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
