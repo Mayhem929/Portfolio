@@ -34,7 +34,7 @@ const About = () => {
           My fascination with Artificial Intelligence drives me to explore its vast potential. 
           Specifically, I am eager to apply my knowledge in graph algorithms in a professional capacity. 
           The prospect of developing intelligent systems that can positively impact various industries 
-          and people's lives is truly motivating.
+          and people&apos;s lives is truly motivating.
           </p>
           <p className='py-2 text-gray-600'>
           Thank you for visiting! I hope you enjoy exploring my portfolio and learning more about me.
